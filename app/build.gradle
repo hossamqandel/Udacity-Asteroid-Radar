@@ -111,7 +111,4 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.38.1")
 
 
-    //Youtube Media Player
-    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
-
 }
