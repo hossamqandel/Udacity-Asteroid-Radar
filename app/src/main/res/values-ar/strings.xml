@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_hazardous">غير خطرة</string>
+    <string name="potentially_hazardous">يحتمل ان يكون خطيرا</string>
+    <string name="close_approach_date">تاريخ الاقتراب وثيق</string>
+    <string name="absolute_magnitude">حجم المطلق</string>
+    <string name="estimated_diameter">القطر التقديري</string>
+    <string name="relative_velocity">السرعة النسبية</string>
+    <string name="distance_from_earth">المسافة من الأرض</string>
+    <string name="astronomica_unit_explanation">The astronomical unit (au) is a unit of length, roughly the distance from Earth to the Sun and equal to about 150 million kilometres (93 million miles)</string>
+
+    <string name="exception_io">Could not reach the server, please check your internet connection</string>
+    <string name="exception">An unexpected error occurred</string>
+    <string name="detailed_definition_of_absolute_magnitude">تعريف مفصل عن القدر المطلق</string>
+    <string name="image_of_the_day">صورة اليوم</string>
+    <string name="video_of_the_day">فيديو اليوم</string>
+    <string name="an_image_to_show_hazardous_status">صورة لإظهار حالة الخطر</string>
+</resources>

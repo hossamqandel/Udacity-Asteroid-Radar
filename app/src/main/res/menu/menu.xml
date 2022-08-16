@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/filterByWeek"
+            android:title="View week asteroids"/>
+
+        <item
+            android:id="@+id/filterByDay"
+            android:title="View today asteroids"/>
+
+        <item
+            android:id="@+id/filterBySaved"
+            android:title="View saved asteroids"/>
+
+    </group>
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/asteroidsFragment">
+
+    <fragment
+        android:id="@+id/asteroidsFragment"
+        android:name="com.android.udacitynasa.feature_asteroids.presentation.asteroids.AsteroidsFragment"
+        android:label="Asteroids List"
+        tools:layout="@layout/fragment_asteroids" >
+        <action
+            android:id="@+id/action_asteroidsFragment_to_asteroidDetailsFragment"
+            app:destination="@id/asteroidDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/asteroidDetailsFragment"
+        android:name="com.android.udacitynasa.feature_asteroid_details.presentation.asteroid_details.AsteroidDetailsFragment"
+        android:label="Asteroid Details"
+        tools:layout="@layout/fragment_asteroid_details" >
+        <argument
+            android:name="closeApproachDate"
+            app:argType="string" />
+        <argument
+            android:name="absoluteMagnitude"
+            app:argType="float" />
+        <argument
+            android:name="estimatedDiameter"
+            app:argType="float" />
+        <argument
+            android:name="relativeVelocity"
+            app:argType="float" />
+        <argument
+            android:name="distanceFromEarth"
+            app:argType="float" />
+        <argument
+            android:name="id"
+            app:argType="long" />
+        <argument
+            android:name="isPotentiallyHazardous"
+            app:argType="boolean" />
+    </fragment>
+</navigation>

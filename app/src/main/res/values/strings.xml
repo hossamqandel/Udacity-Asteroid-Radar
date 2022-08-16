@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">UdacityNasa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="not_hazardous">Not Hazardous</string>
+    <string name="potentially_hazardous">Potentially Hazardous</string>
+    <string name="close_approach_date">Close approach date</string>
+    <string name="absolute_magnitude">Absolute magnitude</string>
+    <string name="estimated_diameter">Estimated diameter</string>
+    <string name="relative_velocity">Relative velocity</string>
+    <string name="distance_from_earth">Distance from earth</string>
+    <string name="astronomica_unit_explanation">The astronomical unit (au) is a unit of length, roughly the distance from Earth to the Sun and equal to about 150 million kilometres (93 million miles)</string>
+
+
+    <string name="exception_io">Could not reach the server, please check your internet connection</string>
+    <string name="exception">An unexpected error occurred</string>
+
+    <string name="detailed_definition_of_absolute_magnitude">Detailed definition of absolute magnitude</string>
+    <string name="image_of_the_day">Image of the day</string>
+    <string name="video_of_the_day">video of the day</string>
+    <string name="an_image_to_show_hazardous_status">An image to show hazardous status</string>
+</resources>
